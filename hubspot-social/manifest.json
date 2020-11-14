@@ -1,0 +1,32 @@
+{
+    "timeZone": "America/Mexico_City",
+    "dependencies": {
+    },
+    "exceptionLogging": "STACKDRIVER",
+    "runtimeVersion": "V8",
+    
+    "urlFetchWhitelist": [
+        "https://api.hubapi.com/", 
+        "https://app.hubspot.com/",
+        "https://hubspot.com/"
+    ],
+      "oauthScopes": [
+         "https://www.googleapis.com/auth/script.external_request"
+    ],
+    "runtimeVersion": "V8",
+    "dataStudio": {
+      "name": "HubSpot Social Connector",
+      "authType":["KEY"],
+      "logoUrl": "https://images.unsplash.com/photo-1519849968456-c4918b53e694",
+      "company": "Kelly Dobbs",
+      "companyUrl": "https://github.com/kellydobbs",
+      "addonUrl": "https://github.com/kellydobbs/hubspot-community-connectors",
+      "supportUrl": "https://github.com/kellydobbs",
+      "description": "Connector for HubSpot Social Data",
+      "sources": ["hubspot"],
+      "templates": {
+        "default": ""
+      }
+    }
+    
+  }
